@@ -1,75 +1,95 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+
+    <!--=============== BOXICONS ===============-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="style2.css">
+
     <link rel="icon" href="sr.jpg" type="image/jpg">
-    <script src="script.js"></script>
-    <title>MIUI SR</title>
+
+    <title>MIUISR</title>
 </head>
+
 <body>
-    <div class="container">
+    <section class="modal container">
+
         <div class="head__section">
-          <img src="sr.jpg" alt="">
-          <br>
-          <p class="dev">MIUI SR - Phoenix</p>
-          <p>Xiaomi Redmi K30 / Poco X2</p>
-          <br>
-          <p><a href=""></a>  by Retardpro</p>
-          <br>
-          <p> (Click to start Download)</p>
+            <img src="sr.jpg" alt="">
+            <br>
+            <p class="dev">MIUI SR - Phoenix</p>
+            <p>Xiaomi Redmi K30 / Poco X2</p>
+            <br>
+            <p class="retard"><a href=""></a> <b> by Retardpro </b></p>
+            <br>
+            <p>If link not working contact - <a href="http://www.adxd.live" target=”_blank” class="link-contact">@adx69</a></p>
+          <!--  <p> (Click to start Download)</p>  -->
         </div>
-        <div class="social__links">
-          <ul id="item">
 
-              
+        <br>
 
-
-            <li class="instagram latest">
-              <a href="http://tiny.cc/MIUISR_Calyx">
-              <i class="fa fa-instagram"></i>
-              <span>
-                <h3>MIUI SR Calyx</h3>
-                <p>04 July 2022</p>
-              </span>
-            </a></li>
-              
-              
-
-            <li class="instagram">
-              <a href="http://tiny.cc/MIUISR_Miral">
-              <i class="fa fa-instagram"></i>
-              <span>
-                <h3>MIUI SR Miral</h3>
-                <p>11 June 2022</p>
-              </span>
-            </a></li>
+        <button class="modal__button latest" id="open-modal">
+            MIUI SR Calyx
+        </button>
 
 
-            
-            <li class="instagram">
-                <a href="http://tiny.cc/MIUISR_Wister">
-                <i class="fa fa-instagram"></i>
-                <span>
-                  <h3>MIUI SR Wister</h3>
-                  <p>25 May 2022</p>
-                </span>
-              </a></li>
+        <div class="modal__container" id="modal-container">
+            <div class="modal__content">
+                <div class="modal__close close-modal" title="Close">
+                    <i class='bx bx-x'></i>
+                </div>
 
-              <li class="instagram">
-                <a href="http://tiny.cc/MIUISR_CrestV2">
-                <i class="fa fa-instagram"></i>
-                <span>
-                  <h3>MIUI SR Crest-V2</h3>
-                  <p>11 May 2022</p>
-                </span>
-              </a></li>
+                <img src="sr.jpg" alt="" class="modal__img">
 
-            
-          </ul>
+                <h1 class="modal__title">MIUISR Calyx</h1>
+                <p class="modal__description">Some Bugs :- <br> - Contacts is not syncing <br> -
+                    3rd Party Apk not being installed <br> <b> Flash Hotfix in recovery to fix it. </b>
+                </p>
+
+                <button onclick="location.href='http://tiny.cc/MIUISR_Calyx/'"
+                    class="modal__button modal__button-width">
+                    Download - ROM
+                </button>
+
+                <button onclick="location.href='https://telegram.dog/miuisr_phoenix/8954'"
+                    class="modal__button modal__button-width">
+                    Download - Hotfix
+                </button>
+
+                <button class="modal__button-link close-modal">
+                    Close
+                </button>
+            </div>
         </div>
-      </div>
+
+
+
+        <button onclick="location.href='http://tiny.cc/MIUISR_Miral'" class="modal__button">
+            MIUI SR Miral
+        </button>
+
+        <button onclick="location.href='http://tiny.cc/MIUISR_Wister'" class="modal__button">
+            MIUI SR Wister
+        </button>
+
+        <button onclick="location.href='http://tiny.cc/MIUISR_CrestV2'" class="modal__button">
+            MIUI SR Crest V2
+        </button>
+
+
+
+
+    </section>
+
+
+    <!--=============== MAIN JS ===============-->
+    <script src="assets/js/main.js"></script>
 </body>
+
 </html>
