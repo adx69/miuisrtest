@@ -7,3 +7,7 @@
     width: 80% !important;
     height: auto;
 }
+
+.service-text h3{
+    color: red !important;
+}
