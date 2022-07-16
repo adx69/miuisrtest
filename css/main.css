@@ -1911,7 +1911,8 @@ input::-moz-focus-inner {
 .home-content__buttons .btn {
   width: 215px;
   border-color: #ffffff;
-  color: #ffffff;
+  background-color: #fff !important;
+  color: red;
   margin: 1.5rem 1.5rem 0 0;
   letter-spacing: 0.25rem;
   -webkit-transition: all 0.5s ease-in-out;
@@ -1924,9 +1925,34 @@ input::-moz-focus-inner {
 
 .home-content__buttons .btn:hover,
 .home-content__buttons .btn:focus {
-  background: #ffffff !important;
-  color: #000000;
+  /* background: #39b54a !important; */
+  background-color: #fff !important;
+  color: red;
 }
+
+/* ------------------------------------------*/
+.home-content__buttons .btn2 {
+  width: 215px;
+  border-color: red;
+  background-color: red !important;
+  color: #ffffff;
+  margin: 1.5rem 1.5rem 0 0;
+  letter-spacing: 0.25rem;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+.home-content__buttons .btn2:last-child {
+  margin-right: 0;
+}
+
+.home-content__buttons .btn2:hover,
+.home-content__buttons .btn2:focus {
+  /* background: #39b54a !important; */
+  background-color: #fff !important;
+  color: red;
+}
+/* --------------------------------------------- */
 
 .home-content__scroll {
   position: absolute;
@@ -1972,7 +1998,7 @@ input::-moz-focus-inner {
   display: block;
   width: 2px;
   height: 10.2rem;
-  background-color: #39b54a;
+  background-color: red;
   position: absolute;
   right: 7.2rem;
   bottom: 0;
