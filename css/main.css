@@ -1962,7 +1962,7 @@ input::-moz-focus-inner {
 
 .home-content__scroll a {
   font-family: "montserrat-semibold", sans-serif;
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   text-transform: uppercase;
   letter-spacing: 0.3rem;
   color: #ffffff;
@@ -2308,8 +2308,9 @@ html.no-csstransitions .home-content__main {
   padding-top: 16.2rem;
   padding-bottom: 9rem;
   background-color: #39b54a;
-  color: #010507;
+  color: #fff;
   position: relative;
+  font-family: "montserrat-light", sans-serif;
 }
 
 .s-about .section-header.has-bottom-sep::before {
