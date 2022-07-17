@@ -11,3 +11,34 @@
 .service-text h3{
     color: red !important;
 }
+
+.btn-dev-con{
+    width: 215px;
+    border-color: #ffffff;
+    background-color: #fff !important;
+    color: red;
+    letter-spacing: 0.25rem;
+    -webkit-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+
+
+    display: flex;
+    margin: auto;
+    font-family: "montserrat-medium", sans-serif;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    letter-spacing: 0.3rem;
+    height: 5.4rem;
+    width: auto;
+    line-height: calc(5.4rem - 0.4rem);
+    padding: 0 3rem;
+    color: red;
+    text-decoration: none;
+    text-align: center;
+    white-space: nowrap;
+    cursor: pointer;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: #c5c5c5;
+    border: 0.2rem solid #c5c5c5;
+}
