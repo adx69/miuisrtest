@@ -3437,7 +3437,8 @@ footer {
   font-size: 15px;
   line-height: 2;
   text-align: center;
-  color: rgba(255, 255, 255, 0.3);
+  color: #fff;
+  background-color: #ff6666;
 }
 
 footer h4 {
@@ -3570,6 +3571,8 @@ footer .row {
   margin-top: 5.4rem;
   text-align: center;
   font-size: 14px;
+  background-color: #ff6666;
+  color: #fff;
 }
 
 .footer-bottom .copyright span {
