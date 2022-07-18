@@ -1,24 +1,24 @@
-.header-nav__social img{
+.header-nav__social img {
     width: 30% !important;
     height: auto;
 }
-.header-nav__social li a{
+
+.header-nav__social li a {
     color: #0087cc !important;
 }
 
-.header-logo img{ 
+.header-logo img {
     width: 80% !important;
     height: auto;
 }
 
-.service-text h3{
+.service-text h3 {
     color: red !important;
 }
 
-.btn-dev-con{
+.btn-dev-con {
     width: 215px;
-    border-color: #ffffff;
-    background-color: #fff !important;
+    border: none;
     color: red;
     letter-spacing: 0.25rem;
     -webkit-transition: all 0.5s ease-in-out;
@@ -26,7 +26,7 @@
 
 
     display: flex;
-    margin: auto;
+    justify-content: center;
     font-family: "montserrat-medium", sans-serif;
     font-size: 1.2rem;
     text-transform: uppercase;
@@ -34,6 +34,7 @@
     height: 5.4rem;
     width: auto;
     line-height: calc(5.4rem - 0.4rem);
+    margin: 0 0.3rem 1.2rem 0;
     padding: 0 3rem;
     color: red;
     text-decoration: none;
@@ -42,21 +43,25 @@
     cursor: pointer;
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
-    background-color: #c5c5c5;
-    border: 0.2rem solid #c5c5c5;
+    background-color: #fff !important;
 }
 
-.device-link button{
+.btn-dev-con:hover {
+    background-color: black !important;
+    color: #fff;
+}
+
+.device-link button {
     cursor: pointer;
     border: none;
     outline: none;
     margin-top: 12px;
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
-  }
+}
 
-  
-.device-link{
+
+.device-link {
     display: inline-block;
     text-align: center;
     background-color: #fff;
@@ -66,11 +71,16 @@
     border: none;
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
-  }
-  
-  .device-link:hover{
+}
+
+.device-link:hover {
     background-color: #000;
     color: #fff;
     -webkit-transition: all 0.4s ease-in-out;
     transition: all 0.4s ease-in-out;
-  }
+}
+
+.features-btn {
+    background-color: #000;
+    color: #fff;
+}
