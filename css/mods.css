@@ -48,6 +48,8 @@
     border: none;
     outline: none;
     margin-top: 12px;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
   }
 
   
@@ -56,12 +58,16 @@
     text-align: center;
     background-color: #fff;
     color: red;
-    border-radius: .5rem;
     transition: .3s;
     width: 100%;
+    border: none;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
   }
   
   .device-link:hover{
     background-color: red;
     color: #fff;
+    -webkit-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
   }
