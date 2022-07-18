@@ -3431,7 +3431,8 @@ html.no-csstransitions .home-content__main {
  *
  * ------------------------------------------------------------------- */
 footer {
-  height: 100vh;
+  width: 100%;
+  height: auto;
   padding: 9rem 0 6rem;
   font-family: "montserrat-light", sans-serif;
   font-size: 15px;
