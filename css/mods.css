@@ -2,6 +2,9 @@
     width: 30% !important;
     height: auto;
 }
+.header-nav__social li a{
+    color: #0087cc !important;
+}
 
 .header-logo img{ 
     width: 80% !important;
