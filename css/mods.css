@@ -42,3 +42,26 @@
     background-color: #c5c5c5;
     border: 0.2rem solid #c5c5c5;
 }
+
+.device-link button{
+    cursor: pointer;
+    border: none;
+    outline: none;
+    margin-top: 12px;
+  }
+
+  
+.device-link{
+    display: inline-block;
+    text-align: center;
+    background-color: #fff;
+    color: red;
+    border-radius: .5rem;
+    transition: .3s;
+    width: 100%;
+  }
+  
+  .device-link:hover{
+    background-color: red;
+    color: #fff;
+  }
